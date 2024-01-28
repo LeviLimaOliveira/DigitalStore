@@ -1,0 +1,7 @@
+.Register{
+    color: var(--dark-gray-2);
+}
+
+.Register:hover{
+    color: blue;
+}

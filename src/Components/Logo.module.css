@@ -1,0 +1,12 @@
+.Logo{
+    color: var(--primary, #C92071);
+    font-family: Inter;
+    font-size: 2.4rem;
+    }
+.flexLogo{
+    display: flex;
+    align-items: center;
+}
+.imgLogo{
+    padding-right: 0.3rem;
+}
