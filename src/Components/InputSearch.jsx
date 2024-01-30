@@ -5,7 +5,7 @@ import style from './InputSearch.module.css'
 const InputSearch = () => {
   return (
     <div>
-        <input className={style.input} type="text" placeholder='Pesquisar produto...' />
+        <input className={style.input} type="text" placeholder='Pesquisar produto...'/>
     </div>
   )
 }

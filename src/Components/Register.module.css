@@ -3,5 +3,5 @@
 }
 
 .Register:hover{
-    color: blue;
+    color:var(--primary);
 }
