@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
-import LogoSite from '../assets/logo.png'
+import LogoSite from '../../assets/logo.png'
 import style from './Logo.module.css'
 
 const Logo = () => {
