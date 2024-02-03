@@ -1,18 +1,20 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
-import Home from './Home'
-import Produtcs from './Products'
-import Categories from './Categories'
-import MyRequests from './MyRequests'
 import style from './Links.module.css'
+
+const menuLinks = [
+  "Home",
+  "Produtos",
+  "Categorias",
+  "Meus Pedidos"
+]
 
 const Links = () => {
   return (
     <div className={style.links}>
-        <Home />
-        <Produtcs />
-        <Categories />
-        <MyRequests />
+    {menuLinks.map((item) => (
+        <div><a href="#">{item}</a></div>
+    ))}
     </div>
   )
 }
